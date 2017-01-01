@@ -1,19 +1,20 @@
-from flask import Flask, jsonify, request
-import db
+from flask import Flask, jsonify
+
 from biz import userBiz
+from common import dbClient
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    data = db.get_company()
+    data = dbClient.get_company()
     return jsonify({'data': data})
 
 
 @app.route('/company', methods=['POST'])
 def add():
-    company = db.get_company()
+    company = dbClient.get_company()
     return jsonify({'company': company})
 
 
