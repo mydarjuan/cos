@@ -2,7 +2,7 @@ import sqlite3
 
 
 def get_conn():
-    conn = sqlite3.connect('/var/root/PycharmProjects/cos/cos.db')
+    conn = sqlite3.connect('/var/root/PycharmProjects/dcms-python/dcms.db')
     return conn
 
 

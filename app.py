@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify,render_template
 
 from biz import userBiz
 from common import dbClient
@@ -6,29 +6,14 @@ from common import dbClient
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    data = dbClient.get_company()
-    return jsonify({'data': data})
+@app.route('/control-panel/index', methods=['GET'])
+def control_panel_index():
+    return render_template('/admin/index.html')
 
 
-@app.route('/company', methods=['POST'])
-def add():
-    company = dbClient.get_company()
-    return jsonify({'company': company})
-
-
-@app.route('/user', methods=['POST'])
-def user_register():
-    user = {"user_name": "leoliu"}
-    userBiz.add_user(user)
-    return jsonify({'success': True})
-
-
-@app.route('/user/<int:user_id>', methods=['GET'])
-def get_user_by_id(user_id):
-    user = userBiz.get_user_by_id(user_id);
-    return jsonify({'user': user})
+@app.route('/', methods=['GET'])
+def fornt_index():
+    return render_template('/fornt/index.html')
 
 
 if __name__ == '__main__':
