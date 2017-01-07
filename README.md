@@ -1,1 +1,1 @@
-python flask + sqlite3 + elasticsearch demo
+python flask + sqlite3 + elasticsearch + adminlte demo
