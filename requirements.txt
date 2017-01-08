@@ -1,0 +1,14 @@
+click==6.7
+Django==1.10.5
+elasticsearch==5.0.1
+ESClient==0.5.8
+Flask==0.12
+freeze==1.0.10
+httpauth==0.3
+itsdangerous==0.24
+Jinja2==2.9.2
+MarkupSafe==0.23
+requests==2.12.4
+six==1.10.0
+urllib3==1.19.1
+Werkzeug==0.11.15
