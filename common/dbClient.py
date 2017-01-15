@@ -5,7 +5,7 @@ import os
 def get_conn():
     try:
         conn = sqlite3.connect(os.path.dirname(os.path.abspath(__file__)) + '/dcms.db')
-    except IOError as e:
+    except Exception as e:
         print(e)
     return conn
 

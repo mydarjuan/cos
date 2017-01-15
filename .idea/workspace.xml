@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec24cef-df8b-41fd-9e12-8664d6b0bd64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biz/postBiz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz/userBiz.py" afterPath="$PROJECT_DIR$/biz/userBiz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/dbClient.py" afterPath="$PROJECT_DIR$/common/dbClient.py" />
     </list>
     <ignored path="cos.iws" />
@@ -34,38 +36,15 @@
     <favorites_list name="cos" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="userBiz.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biz/userBiz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbClient.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/dbClient.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4095563">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -82,7 +61,6 @@
         <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/biz/useBiz.py" />
         <option value="$PROJECT_DIR$/common/esClient.py" />
-        <option value="$PROJECT_DIR$/biz/userBiz.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/fornt/index.html" />
         <option value="$PROJECT_DIR$/templates/fornt/layout.html" />
@@ -92,6 +70,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/common/dbClient.py" />
+        <option value="$PROJECT_DIR$/biz/userBiz.py" />
+        <option value="$PROJECT_DIR$/biz/postBiz.py" />
       </list>
     </option>
   </component>
@@ -525,7 +505,13 @@
       <option name="project" value="LOCAL" />
       <updated>1484483294930</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add sqllite db class">
+      <created>1484485141511</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484485141511</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -572,7 +558,8 @@
     <MESSAGE value="add template" />
     <MESSAGE value="rename app.py to run.py" />
     <MESSAGE value="add requirements.txt doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt doc" />
+    <MESSAGE value="add sqllite db class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sqllite db class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,20 +889,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/biz/userBiz.py">
+    <entry file="file://$PROJECT_DIR$/common/dbClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.30716723">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/dbClient.py">
+    <entry file="file://$PROJECT_DIR$/biz/userBiz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4095563">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1484485765000" expanded="true" signature="71:107" placeholder="SELECT * FRO... USERS" />
+            <marker date="1484485765000" expanded="true" signature="194:249" placeholder="SELECT * FRO... USERS" />
+            <marker date="1484485765000" expanded="true" signature="361:416" placeholder="UPDATE USERS... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/postBiz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5255973">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <marker date="1484486175000" expanded="true" signature="71:107" placeholder="SELECT * FRO... POSTS" />
+            <marker date="1484486175000" expanded="true" signature="192:244" placeholder="INSERT INTO POSTS... " />
+            <marker date="1484486175000" expanded="true" signature="192:261" placeholder="INSERT INTO POSTS... " />
+            <marker date="1484486175000" expanded="true" signature="390:442" placeholder="UPDATE POSTS... " />
           </folding>
         </state>
       </provider>
