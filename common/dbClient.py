@@ -1,28 +1,38 @@
 import sqlite3
+import os
 
 
 def get_conn():
-    conn = sqlite3.connect('/var/root/PycharmProjects/dcms-python/dcms.db')
+    try:
+        conn = sqlite3.connect(os.path.dirname(os.path.abspath(__file__)) + '/dcms.db')
+    except IOError as e:
+        print(e)
     return conn
 
 
-def add_company(id):
-    conn = get_conn()
-    conn.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) \
-      VALUES (id, 'Paul', 32, 'California', 20000.00 )")
-
-    conn.commit()
-    conn.close()
-
-    return True
-
-
-def get_company():
-    conn = get_conn()
-    cursor = conn.execute("SELECT id, name, address, salary  from COMPANY")
-    data = []
-    for item in cursor:
-        data.append(item)
-    cursor.close()
-    conn.close()
+def execute_query(sql, params):
+    try:
+        conn = get_conn()
+        cursor = conn.execute(sql, params)
+    except Exception as e:
+        print(e)
+        data = []
+        for item in cursor:
+            data.append(item)
+        cursor.close()
+    finally:
+        conn.close()
     return data
+
+
+def execute_no_query(sql, params):
+    try:
+        conn = get_conn()
+        conn.execute(sql, params)
+    except Exception as e:
+        print(e)
+        conn.rollback()
+    else:
+        conn.commit()
+    finally:
+        conn.close()
