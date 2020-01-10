@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eec24cef-df8b-41fd-9e12-8664d6b0bd64" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="eec24cef-df8b-41fd-9e12-8664d6b0bd64" name="Default" comment="add 400,500 error template" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,6 +172,7 @@
       <updated>1458313003054</updated>
       <workItem from="1578563250435" duration="610000" />
       <workItem from="1578622001864" duration="1055000" />
+      <workItem from="1578623079412" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1483282253892</created>
@@ -247,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484485141511</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add 400,500 error template">
+      <created>1578623131736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578623131736</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,13 +267,18 @@
     <MESSAGE value="rename app.py to run.py" />
     <MESSAGE value="add requirements.txt doc" />
     <MESSAGE value="add sqllite db class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sqllite db class" />
+    <MESSAGE value="add 400,500 error template" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 400,500 error template" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578563474505">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="320" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578563474505" />
+    <state x="342" y="24" key="CommitChangelistDialog2" timestamp="1578623131453">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="342" y="24" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1578623131453" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578623067342">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -305,6 +307,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578563357449" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1578623157064">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1578623157064" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cos$cos.coverage" NAME="cos Coverage Results" MODIFIED="1578622844790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
