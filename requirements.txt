@@ -1,5 +1,5 @@
 click==6.7
-Django==1.10.5
+Django==1.11.23
 elasticsearch==5.0.1
 ESClient==0.5.8
 Flask==0.12
