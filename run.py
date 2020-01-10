@@ -8,19 +8,17 @@ app = Flask(__name__)
 
 @app.errorhandler(404)
 def page_not_found(error):
-    return render_template('/common/404.html', error), 404
+    return render_template('/common/404.html')
 
 
 @app.errorhandler(500)
 def page_not_found(error):
-    return render_template('/common/500.html', error), 500
+    return render_template('/common/500.html')
 
 
 @app.route('/control-panel/index', methods=['GET'])
 def control_panel_index():
     return render_template('/admin/index.html')
-
-
 
 
 @app.route('/', methods=['GET'])
