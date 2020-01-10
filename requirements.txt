@@ -2,7 +2,7 @@ click==6.7
 Django==1.10.5
 elasticsearch==5.0.1
 ESClient==0.5.8
-Flask==0.12
+Flask==1.0
 freeze==1.0.10
 httpauth==0.3
 itsdangerous==0.24
