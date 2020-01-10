@@ -275,9 +275,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="320" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578563474505" />
-    <state x="342" y="24" key="CommitChangelistDialog2" timestamp="1578623131453">
+    <state x="342" y="24" key="CommitChangelistDialog2" timestamp="1578643864171">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="342" y="24" key="CommitChangelistDialog2/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578643864171" />
     <state x="342" y="24" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1578623131453" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578623067342">
       <screen x="0" y="23" width="1440" height="797" />
@@ -307,9 +308,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578563357449" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1578623157064">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1578643870006">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578643870006" />
     <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1578623157064" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
