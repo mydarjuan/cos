@@ -6,7 +6,7 @@ Flask==0.12
 freeze==1.0.10
 httpauth==0.3
 itsdangerous==0.24
-Jinja2==2.9.2
+Jinja2==2.11.3
 MarkupSafe==0.23
 requests==2.12.4
 six==1.10.0
